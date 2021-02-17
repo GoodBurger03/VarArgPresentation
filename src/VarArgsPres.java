@@ -1,3 +1,5 @@
+//This is a presentation example for VarArgs
+
 
 public class VarArgsPres {
 
@@ -6,7 +8,7 @@ public class VarArgsPres {
 		return i + j;
 
 	}
-//	
+	
 //	public int VarArg(int ... j) {
 //		int sum =0;
 //		for(int i : j) {
@@ -20,10 +22,10 @@ public class VarArgsPres {
 
 	public static void main(String[] args) {
 		VarArgsPres object = new VarArgsPres();
-		VarArgsPres object2 = new VarArgsPres();
+	//	VarArgsPres object2 = new VarArgsPres();
 
-//		System.out.println(object.noVarArg(4, 8, 12));
-//		 System.out.println(object2.VarArg(4, 8, 12));
+		System.out.println(object.noVarArg(4, 8));
+		// System.out.println(object2.VarArg(4, 8, 12));
 	}
 
 }

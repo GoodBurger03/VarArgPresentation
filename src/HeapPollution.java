@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 //This is a presentation example for Heap Pollution.
 
-class HeapPolloution {
+public class HeapPollution {
 	public static void main(String[] args) 
 { 
 
@@ -23,7 +23,7 @@ List<Integer> listOfInteger
 // firstElement of listOfInteger which holds 
 // the reference of a List of type String 
 // and trying to store it into 
-// one variable of type Integer 
+// one variable of type Integer. 
 Integer firstElement 
 = listOfInteger.get(0); 
 System.out.println(firstElement); 
